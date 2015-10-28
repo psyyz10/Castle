@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine Code">
+      <UniqueIdentifier>{10a90c59-b99d-4bbd-bb78-5c95233a6833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Code\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine Code\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Your Code">
+      <UniqueIdentifier>{71d12eb0-7697-4b46-b7ab-a5ff283ab2bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Your Code\Header Files">
+      <UniqueIdentifier>{b7d70daf-f80c-4c51-a6fc-cf31149b10d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Your Code\Source Files">
+      <UniqueIdentifier>{b55ef293-e023-4eaa-b4d2-ad8bb986e7a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CastleEngine.cpp">
+      <Filter>Your Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine\CPP\Engine.cpp">
+      <Filter>Engine Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine\CPP\InputController.cpp">
+      <Filter>Engine Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine\CPP\main.cpp">
+      <Filter>Engine Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine\CPP\StaticEngineWindows.cpp">
+      <Filter>Engine Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine\CPP\TextureManager.cpp">
+      <Filter>Engine Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Engine\CPP\ViewController.cpp">
+      <Filter>Engine Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Your Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Castle.cpp">
+      <Filter>Your Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Your Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Your Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
+      <Filter>Your Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Your Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>Your Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreetLight.cpp">
+      <Filter>Your Code\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Your Code\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CastleEngine.h">
+      <Filter>Your Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine\HPP\DisplayableObject.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine\HPP\Engine.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine\HPP\EngineMath.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine\HPP\EngineObject.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine\HPP\InputController.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine\HPP\InputReceiver.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine\HPP\StaticEngineWindows.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine\HPP\TextureManager.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Engine\HPP\ViewController.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Your Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle.h">
+      <Filter>Your Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Your Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Your Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>Your Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Your Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>Your Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LampMesh.h">
+      <Filter>Engine Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StreetLight.h">
+      <Filter>Your Code\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Your Code\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

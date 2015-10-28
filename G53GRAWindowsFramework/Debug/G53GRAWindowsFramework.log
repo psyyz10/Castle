@@ -1,0 +1,93 @@
+﻿Build started 2014/4/7 14:51:12.
+     1>Project "\\dougal\cs1u$\yxz02u\Desktop\gra-yxz02u\G53GRAWindowsFramework\G53GRAWindowsFramework\G53GRAWindowsFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\ /I..\Engine /I.\ /I..\Engine\HPP /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Engine\CPP\Engine.cpp ..\Engine\CPP\InputController.cpp ..\Engine\CPP\main.cpp ..\Engine\CPP\StaticEngineWindows.cpp ..\Engine\CPP\TextureManager.cpp ..\Engine\CPP\ViewController.cpp Camera.cpp Castle.cpp CastleEngine.cpp Floor.cpp Light.cpp Robot.cpp Skybox.cpp StreetLight.cpp Sun.cpp Tree.cpp
+         Tree.cpp
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\tree.cpp(45): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\tree.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\tree.cpp(76): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         Sun.cpp
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\sun.cpp(19): warning C4305: '=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\sun.cpp(20): warning C4305: '=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\sun.cpp(21): warning C4305: '=' : truncation from 'double' to 'float'
+         StreetLight.cpp
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\streetlight.cpp(14): warning C4305: '=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\streetlight.cpp(15): warning C4305: '=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\streetlight.cpp(16): warning C4305: '=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\streetlight.cpp(21): warning C4305: '=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\streetlight.cpp(102): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\streetlight.cpp(164): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         Skybox.cpp
+         Robot.cpp
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\robot.cpp(13): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\robot.cpp(79): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\robot.cpp(216): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         Light.cpp
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\light.cpp(16): warning C4305: '=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\light.cpp(17): warning C4305: '=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\light.cpp(18): warning C4305: '=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\light.cpp(44): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         Floor.cpp
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\floor.cpp(62): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\floor.cpp(49): warning C4101: 'y' : unreferenced local variable
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\floor.cpp(49): warning C4101: 'x' : unreferenced local variable
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\floor.cpp(49): warning C4101: 'z' : unreferenced local variable
+         CastleEngine.cpp
+         Castle.cpp
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(171): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(183): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(192): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(201): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(215): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(222): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(235): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(245): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(270): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(280): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(341): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(341): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(352): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(352): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(362): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(362): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(373): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(373): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(484): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\castle.cpp(497): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         Camera.cpp
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\g53grawindowsframework\camera.cpp(105): warning C4804: '~' : unsafe use of type 'bool' in operation
+         ViewController.cpp
+         TextureManager.cpp
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\engine\cpp\texturemanager.cpp(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         StaticEngineWindows.cpp
+     1>\\dougal\cs1u$\yxz02u\desktop\gra-yxz02u\g53grawindowsframework\engine\cpp\staticenginewindows.cpp(24): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+         main.cpp
+         InputController.cpp
+         Engine.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\dougal\cs1u$\yxz02u\Desktop\gra-yxz02u\G53GRAWindowsFramework\Debug\G53GRAWindowsFramework.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\GL opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\dougal\cs1u$\yxz02u\Desktop\gra-yxz02u\G53GRAWindowsFramework\Debug\G53GRAWindowsFramework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\dougal\cs1u$\yxz02u\Desktop\gra-yxz02u\G53GRAWindowsFramework\Debug\G53GRAWindowsFramework.lib" /MACHINE:X86 Debug\Engine.obj
+         Debug\InputController.obj
+         Debug\main.obj
+         Debug\StaticEngineWindows.obj
+         Debug\TextureManager.obj
+         Debug\ViewController.obj
+         Debug\Camera.obj
+         Debug\Castle.obj
+         Debug\CastleEngine.obj
+         Debug\Floor.obj
+         Debug\Light.obj
+         Debug\Robot.obj
+         Debug\Skybox.obj
+         Debug\StreetLight.obj
+         Debug\Sun.obj
+         Debug\Tree.obj
+         G53GRAWindowsFramework.vcxproj -> \\dougal\cs1u$\yxz02u\Desktop\gra-yxz02u\G53GRAWindowsFramework\Debug\G53GRAWindowsFramework.exe
+     1>Done Building Project "\\dougal\cs1u$\yxz02u\Desktop\gra-yxz02u\G53GRAWindowsFramework\G53GRAWindowsFramework\G53GRAWindowsFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.08
